@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:#fc7b7f;
+    height: 80px;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:210px;
+    background-size: contain;
+    font-family: 'Arial black';
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+    font-family: '得意黑';
+}
+header ul{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
+}
+section {
+    background-color: #fcdfdb;    
+}
+.one {
+    background-image: url(image/background.jpg);
+    background-color: #fcdfdb;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-family:'Cooper Black';
+}
+section h2{
+    font-size: 15vh;
+}
+section h3{
+    font-size: 10vh;
+}
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    line-height: 0.9em;
+}
+.menu{
+display: none;
+}
+
+@media screen and (max-width:768px) {
+    header ul{
+    display: none;
+    }
+    header h1{
+    left: 50%;
+    transform: translateX(-50%);
+}
+    .one h2{
+        width: 50vh;
+    font-size: 40px;
+}
+    .one h3{
+        width: 50vh;
+    font-size: 35px;
+}
+}

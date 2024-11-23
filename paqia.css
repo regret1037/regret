@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:#e49c23;
+    height: 80px;
+}
+header h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:210px;
+    background-size: contain;
+    font-family: 'Arial black';
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+    font-family: '得意黑';
+}
+header ul{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
+}
+.one {
+    background-image: url(image/background3.jpg);
+    background-position: 100%;
+    background-color: #f5cc3c;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 130vh;
+    display: flex;
+    justify-content: left;
+    font-family:'Cooper Black';
+}
+section h1{
+    position: absolute;
+    font-size: 10vw;
+    right: 5vw;
+    top:8vw;
+    font-family: '华文新魏';
+    }
+.two{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 5vw;
+    top: 100px;
+}
+div{
+    padding: 4px;
+}
+section h2{
+    font-size: 15vh;
+}
+section h3{
+    font-size: 20px;
+}
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    line-height: 0.9em;
+}
+audio{
+    height: 50px;
+    width: 40vw;
+}
+.menu{
+display: none;
+}
+
+@media screen and (max-width:768px) {
+    header ul{
+    display: none;
+    }
+    header h1{
+    left: 50%;
+    transform: translateX(-50%);
+}
+    .one h2{
+        width: 50vh;
+    font-size: 40px;
+}
+    .one h3{
+        width: 50vh;
+    font-size: 35px;
+}
+}
